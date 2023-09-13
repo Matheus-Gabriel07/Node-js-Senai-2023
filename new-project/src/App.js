@@ -1,12 +1,14 @@
 import "./App.css";
-import Carro from "./Carro";
 import Futebol from "./Futebol";
+import Contador from "./Contador";
+import Temporizador from "./Temporizador";
 
 function App() {
   return (
     <div>
-      <Carro cor="azul" />
       <Futebol fezGol={true}/>
+      <Contador/>
+      <Temporizador/>
     </div>
   );
 }
