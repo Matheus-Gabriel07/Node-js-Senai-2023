@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: flex;
+align-items: center;
 }
 
 .App-logo {
@@ -9,7 +11,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin 1s infinite linear;
+    animation: App-logo-spin 20s infinite linear;
   }
 }
 
@@ -21,7 +23,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #ffffff;
 }
 
 .App-link {
