@@ -4,9 +4,9 @@ import Card from "./card";
 import "./busca.svg";
 import "./App.css";
 
-const API_URL = "https://omdbapi.com?apikey=fe2f6c44";
+const API_URL = "https://omdbapi.com?apikey=7b62cb24";
 const App = () => {
-  const [movies, setMovies] = useState([]);
+  /*const [movies, setMovies] = useState([]);
   const [searchTerm, setSearchTerm] = useState([]);
   const searchMovies = async (title) => {
     const response = await fetch(`${API_URL}&s=${title}`);
@@ -16,6 +16,7 @@ const App = () => {
   useEffect(() => {
     searchMovies("All");
   }, []);
+
   return (
     <div className="app">
       <h1>Movie app</h1>
@@ -48,7 +49,12 @@ const App = () => {
         </div>
       )}
     </div>
-  );
+  );*/
+  return (
+    <div className="App">
+      <h1>Movie App</h1>
+    </div>
+  )
 };
 
 export default App;
