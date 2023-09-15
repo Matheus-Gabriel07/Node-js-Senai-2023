@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
 import Card from "./card";
-import "./busca.svg";
+import iconSearch from "./busca.svg";
 import "./App.css";
 
 const API_URL = "https://omdbapi.com?apikey=7b62cb24";
 const App = () => {
-  /*const [movies, setMovies] = useState([]);
+  const [movies, setMovies] = useState([]);
   const [searchTerm, setSearchTerm] = useState([]);
   const searchMovies = async (title) => {
     const response = await fetch(`${API_URL}&s=${title}`);
@@ -31,7 +31,7 @@ const App = () => {
           onInput={() => searchMovies(searchTerm)}
         />
         <img
-          src="./busca.svg"
+          src={iconSearch}
           alt="search icon"
           onClick={() => searchMovies(searchTerm)}
         />
@@ -49,12 +49,7 @@ const App = () => {
         </div>
       )}
     </div>
-  );*/
-  return (
-    <div className="App">
-      <h1>Movie App</h1>
-    </div>
-  )
+  );
 };
 
 export default App;
